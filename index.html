@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <title>Nana Mohamed</title>
+     <meta name="description" content="Put your name, tagline, and SEO description here">
+
+     <!--Responsive design call-->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <!--Stylesheets-->
+     <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+     <!--Favicon-->
+     <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+</head>
+
+<body>
+
+     <!--Header and Navigation-->
+     <header>
+          <a href="index.html#top" onclick="closeMobileNav()">
+               <h1>Nana Mohamed</h1>
+          </a>
+     </header>
+
+     <nav id="nav">
+          <a href="index.html#section-1" onclick="closeMobileNav()">About</a>
+          <a href="index.html#section-2" onclick="closeMobileNav()">Projects</a>
+          <a href="index.html#section-3" onclick="closeMobileNav()">Contact</a>
+     </nav>
+
+     <!--Mobile menu-->
+     <input type="checkbox" id="active" class="mobile-nav-input" aria-hidden="true">
+     <div class="menu cross menu--1" aria-hidden="true">
+          <label>
+               <input id="checkbox" type="checkbox" onclick="toggleMobileNav()" class="mobile-nav-input">
+               <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="30" />
+                    <path class="line--1" d="M0 40h62c13 0 6 28-4 18L35 35" />
+                    <path class="line--2" d="M0 50h70" />
+                    <path class="line--3" d="M0 60h62c13 0 6-28-4-18L35 65" />
+               </svg>
+          </label>
+     </div>
+
+     <!--Main-->
+     <main>
+
+          <!--Hero Section-->
+
+          <section id="top" class="full-height hero">
+               <article class="col-60 center-text">
+                    <h2>Nana Mohamed</h2>
+                    <h3>Illustration • Motion • Storytelling</h3>
+                    <a href="Mohamed-resume.pdf" target="_blank">
+                  <button class="primary-btn">Resume</button>
+              </a>
+              <a href="https://youtu.be/DZx0314jrj4" target="_blank">
+              <button class="primary-btn">Demo</button>
+        </a>
+      </article>
+    </section>
+          </section>
+
+
+          <section id="section-1">
+      <article class="col-40 col-left">
+        <h2 class="col-80 margin-auto about-title">About Me</h2>
+
+
+        <p>
+          I’m a Digital Technology & Culture major who focuses on animation, illustration, and motion design.
+          I work mostly in 2D because that’s where I feel the strongest connection to storytelling, color, and
+          character expression, but I also use 3D tools when a project needs them. When I’m not designing
+          digitally, you’ll usually find me sketching or painting. Traditional art is a big part of how I
+          develop my style and creative voice.
+        </p>
+
+        <p>
+          I’ve built small projects with HTML, CSS, and beginner JavaScript, and I’ve created logos and other
+          graphic pieces that show my range as a designer. My process always centers on mood, color, and movement,
+          finding ways to make every piece feel alive and full of personality.
+        </p>
+      </article>
+
+      <article class="col-30 col-right">
+        <figure>
+          <img src="img/img1.jpg" alt="Photo of Nana Mohamed" class="round-corners profile-pic">
+        </figure>
+      </article>
+    </section>
+
+    <!-- CATEGORY BUTTONS -->
+    <section id="section-2">
+      <div class="grid-wrapper full-width category-buttons">
+
+        <a data-target="proj-photo">
+          <article>
+            <div class="grid-item-text"><h4>Photography</h4></div>
+          </article>
+        </a>
+
+        <a data-target="proj-2d">
+          <article>
+            <div class="grid-item-text"><h4>2D Digital Illustration</h4></div>
+          </article>
+        </a>
+
+        <a data-target="proj-animation">
+          <article>
+            <div class="grid-item-text"><h4>Animation</h4></div>
+          </article>
+        </a>
+
+        <a data-target="proj-sketches">
+          <article>
+            <div class="grid-item-text"><h4>Sketches</h4></div>
+          </article>
+        </a>
+
+        <a data-target="proj-web">
+          <article>
+            <div class="grid-item-text"><h4>Web Work</h4></div>
+          </article>
+        </a>
+
+        <a data-target="proj-traditional">
+          <article>
+            <div class="grid-item-text"><h4>Traditional Art</h4></div>
+          </article>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+
+      <!-- Photography -->
+      <div id="proj-photo" class="project-category-block">
+        <div class="project-grid">
+          <figure><img src="img/bbb.jpg" alt=""></figure>
+          <figure><img src="img/ccc.jpg" alt=""></figure>
+          <figure><img src="img/i2.jpg" alt=""></figure>
+          <figure><img src="img/iii.jpg" alt=""></figure>
+          <figure><img src="img/ttt.jpg" alt=""></figure>
+          <figure><img src="img/sss.jpg" alt=""></figure>
+          <figure><img src="img/yyy.jpg" alt=""></figure>
+          <figure><img src="img/paris.jpg" alt=""></figure>
+          <figure><img src="img/mmm.jpg" alt=""></figure>
+          <figure><img src="img/ggg.jpg" alt=""></figure>
+          <figure><img src="img/egypt1.jpg" alt=""></figure>
+          <figure><img src="img/uuu.jpg" alt=""></figure>
+          <figure><img src="img/nnn.jpg" alt=""></figure>
+          
+        </div>
+      </div>
+
+      <!-- 2D DIGITAL ILLUSTRATION -->
+      <div id="proj-2d" class="project-category-block">
+        <div class="project-grid">
+          <figure><img src="img/poster.png" alt=""></figure>
+          <figure><img src="img/infographic.jpg" alt=""></figure>
+          <figure><img src="img/4.jpg" alt=""></figure>
+          <figure><img src="img/8.jpg" alt=""></figure>
+          <figure><img src="img/1.jpg" alt=""></figure>
+          <figure><img src="img/pu.jpg" alt=""></figure>
+          <figure><img src="img/butter.png" alt=""></figure>
+          <figure><img src="img/logo.png" alt=""></figure>
+        </div>
+      </div>
+
+      <!-- ANIMATION -->
+<div id="proj-animation" class="project-category-block">
+  <div class="project-grid">
+    
+    <figure>
+      <video controls>
+        <source src="videos/ar.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+
+    <figure>
+      <video controls>
+        <source src="videos/pizza.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+
+    <figure>
+      <video controls>
+        <source src="videos/mu.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+
+    <!-- FIXED FIRE VIDEO -->
+    <figure>
+      <video controls>
+        <source src="videos/fire.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+
+  </div>
+</div>
+
+      <!-- Sketches -->
+      <div id="proj-sketches" class="project-category-block">
+        <div class="project-grid">
+          <figure><img src="img/v1.jpg" alt=""></figure>
+          <figure><img src="img/v2.jpg" alt=""></figure>
+          <figure><img src="img/v3.jpg" alt=""></figure>
+          <figure><img src="img/v4.jpg" alt=""></figure>
+          <figure><img src="img/v5.jpg" alt=""></figure>
+          <figure><img src="img/v6.jpg" alt=""></figure>
+          <figure><img src="img/v7.jpg" alt=""></figure>
+        </div>
+      </div>
+
+      <!-- Web Work -->
+      <div id="proj-web" class="project-category-block">
+        <div class="project-grid">
+          <a href="https://dtc-wsuv.org/nmohamed25/recipe/" target="_blank">
+            <figure><img src="img/koshary.png" alt=""></figure>
+          </a>
+          <a href="https://dtc-wsuv.org/nmohamed25/narrative/" target="_blank">
+            <figure><img src="img/hunted.png" alt=""></figure>
+          </a>
+          <a href="https://dtc-wsuv.org/nmohamed25/blackbird/" target="_blank">
+            <figure><img src="img/bird.png" alt=""></figure>
+          </a>
+        </div>
+      </div>
+
+      <!-- Traditional -->
+      <div id="proj-traditional" class="project-category-block">
+        <div class="project-grid">
+          <figure><img src="img/bb.jpg" alt=""></figure>
+          <figure><img src="img/bb1.jpg" alt=""></figure>
+          <figure><img src="img/bb2.jpg" alt=""></figure>
+          <figure><img src="img/bb3.jpg" alt=""></figure>
+          <figure><img src="img/bb4.jpg" alt=""></figure>
+          <figure><img src="img/bb5.jpg" alt=""></figure>
+          <figure><img src="img/bb6.jpg" alt=""></figure>
+          <figure><img src="img/bb7.jpg" alt=""></figure>
+          <figure><img src="img/bb8.jpg" alt=""></figure>
+          <figure><img src="img/bb9.jpg" alt=""></figure>
+          <figure><img src="img/bb10.jpg" alt=""></figure>
+        </div>
+      </div>
+
+    </section>
+
+       <section id="section-3">
+       <figure class="col-40 col-left">
+    <a href="https://dtc-wsuv.org/projects/t1-timestream/experience/" target="_blank">
+      <img src="img/train.png" alt="T1 TimeStream train illustration" class="round-corners">
+    </a>
+      </figure>
+
+
+      <article class="col-30 col-right">
+        <h2 class="auto-width">T1 TimeStream</h2>
+
+        <p>
+          T1 TimeStream is an augmented reality project created for the Port of Vancouver.
+          It brings historical stories from Vancouver’s Terminal 1 waterfront to life through
+          interactive AR vignettes.
+        </p>
+
+        <p>
+          I worked as a 2D Illustrator and Motion Designer, creating visual assets for the AR scenes:<br>
+          • Designed the train artwork (sketches, shading, colors, motion style)<br>
+          • Created 2D scene elements used in the AR animations<br>
+          • Followed the team’s mood board and visual guidelines<br>
+          • Collaborated with teammates to refine assets for the final experience
+        </p>
+      </article>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-inner">
+        <div class="contact-header-bar">
+          <h2 class="contact-title">Contact</h2>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-subtitle">Let’s connect or collaborate!</p>
+
+          <div class="contact-icons">
+            <a href="mailto:nanamahmoud99@gmail.com" class="contact-icon"><img src="img/mail.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/nana-mahmoud-04b241312" target="_blank" class="contact-icon"><img src="img/in.png" alt=""></a>
+            <a href="https://www.instagram.com/nana.mohamed___/" target="_blank" class="contact-icon"><img src="img/insta.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+     </main>
+
+
+     <!-- FOOTER -->
+  <footer>
+    <p id="copyright">Copyright Nana Mohamed 2025</p>
+  </footer>
+
+  <!-- CATEGORY SWITCH SCRIPT -->
+<script>
+    document.querySelectorAll('.category-buttons a').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // get the correct target from data-target=""
+            const target = this.dataset.target;
+
+            // hide all categories
+            document.querySelectorAll('.project-category-block')
+                .forEach(block => block.classList.remove('active'));
+
+            // show the selected category
+            document.getElementById(target).classList.add('active');
+
+            // scroll smoothly into projects section
+            document.querySelector('#projects')
+                .scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
+
+</body>
+
+</html>
